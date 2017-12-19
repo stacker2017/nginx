@@ -1,0 +1,11 @@
+- name: Create VM with defaults
+  azure_rm_virtualmachine:
+    resource_group: Testing
+    name: testvm10
+    admin_username: ubuntu 
+    admin_password: Password123456
+    image:
+      offer: CentOS
+      publisher: OpenLogic
+      sku: '7.1'
+      version: latest
