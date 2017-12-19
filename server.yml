@@ -1,5 +1,4 @@
 ---
 - hosts: nginx
   roles:
-    - vm-azure
     - nginx
