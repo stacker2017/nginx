@@ -1,4 +1,4 @@
 ---
-- hosts: awx
+- hosts: test-demo
   roles:
     - nginx
