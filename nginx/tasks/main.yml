@@ -29,7 +29,7 @@
   
 - name: "Configure /var/www/html"
   template:
-    src: "index.nginx-debian.htm"
+    src: "index.nginx-debian.html"
     dest: "/var/www/html"
     owner: "root"
     group: "root"
