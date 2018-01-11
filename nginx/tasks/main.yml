@@ -26,4 +26,14 @@
     mode: "0644"
   notify: "Restart nginx"
   tags: "nginx"
+  
+- name: "Configure /var/www/html"
+  template:
+    src: "index.nginx-debian.htm"
+    dest: "/var/www/html"
+    owner: "root"
+    group: "root"
+    mode: "0644"
+  notify: "Restart nginx"
+  tags: "nginx"  
 
