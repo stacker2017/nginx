@@ -1,5 +1,5 @@
 ---
-- hosts: "{{ rs_group }}"
+- hosts: "{{ resource_group }}"
   gather_facts: yes
   roles:
     - nginx
