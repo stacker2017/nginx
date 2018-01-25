@@ -1,5 +1,5 @@
 ---
-- hosts: "{{ resource_group }}"
+- hosts: "tdtd"
   gather_facts: yes
   roles:
     - nginx
